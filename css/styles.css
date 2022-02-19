@@ -1,12 +1,18 @@
-.background{
+body{
     background-color: hsl(212, 45%, 89%);
+}
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .card{
     background-color: hsl(0, 0%, 100%);
     width: 20%;
-    position: relative;
     border-radius: 25px;
     padding: 15px;
     box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.1), 0 2px 20px 2px rgba(0, 0, 0, 0.12);
@@ -28,10 +34,22 @@ img{
     position: relative;
     margin-bottom: 20px;
     margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 p{
-    font-size: 12px;
+    font-size: 14px;
     font-family: "Outfit", sans-serif;
     margin: 0px 0px;
 }
